@@ -80,7 +80,7 @@ export const Portfolio: React.FC = () => {
           className={`items-center justify-between ${s['nav-sticky']} md:max-h-full ${!isShow?'':s['active']} w-full md:flex md:w-auto md:order-1`}
           id="navbar-sticky"
         >
-          <ul className={`flex flex-col p-4 md:p-0 mt-4 font-medium border transition-opacity	duration-1000	 ${!isShow?'opacity-0	':'opacity-100'} border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700`}>
+          <ul className={`flex flex-col p-4 md:p-0 mt-4 font-medium border transition-opacity	duration-1000	 ${!isShow?'opacity-0	md:opacity-100':'opacity-100'} border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700`}>
             <li>
               <a
                 onClick={()=>setIsShow(false)}
