@@ -158,7 +158,7 @@ export const Portfolio: React.FC = () => {
           <div className="container grid max-w-5xl items-center gap-6 px-4 md:px-6">
             <div className="space-y-4 text-center">
               <h2 className={`text-7xl tracking-tighter sm:text-4xl md:mb-4 md:text-8xl ${s['scan-title']}`}>Map</h2>
-              <iframe src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d326.44015389268344!2d76.66605084980033!3d12.343190395421699!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTLCsDIwJzM1LjIiTiA3NsKwMzknNTcuNiJF!5e0!3m2!1sen!2sin!4v1723667173716!5m2!1sen!2sin" width="600" height="450" className="border-0 w-full flex" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d326.44015389268344!2d76.66605084980033!3d12.343190395421699!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTLCsDIwJzM1LjIiTiA3NsKwMzknNTcuNiJF!5e0!3m2!1sen!2sin!4v1723667173716!5m2!1sen!2sin" width="600" height="450" className="border-0 w-full flex" allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
             </div>
           </div>
         </section>
