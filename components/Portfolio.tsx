@@ -37,7 +37,7 @@ export const Portfolio: React.FC = () => {
     <div className="flex flex-col min-h-dvh">
       <header>
         <nav className="bg-[#fef6e3] dark:bg-gray-900 fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600 ">
-      <div className={`max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 transition-all transition-transform duration-1000 ${s['nav-bar']} m-4 md:mx-auto`}>
+      <div className={`max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 transition-all transition-transform duration-1000 ${s['nav-bar']} m-4 mx-4 md:mx-auto`}>
         <Link
           href=""
           className="flex items-center space-x-3 rtl:space-x-reverse"
