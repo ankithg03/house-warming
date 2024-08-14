@@ -1,0 +1,29 @@
+.banner-primary {
+    height: 100%;
+    margin-top: 6rem;
+    width: 100%;
+}
+.scan-title {
+    font-family: 'BrooklynFreeRegular'
+}
+.nav-bar {
+    border-radius: 1rem;
+    box-shadow: 1px 1px 8px 2px #00000033;
+    background-color: white;
+}
+.nav-bar ul {
+    transition: 1s all linear;
+}
+
+.nav-bar .nav-sticky {
+    overflow: hidden; /* Ensure content is clipped */
+    max-height: 0;
+    transition: max-height 1s ease-in-out;
+    @screen md {
+        max-height: 100%;
+    }
+}
+
+.nav-bar .active {
+    max-height: 500px; /* Set to a large enough value to accommodate content */
+}
