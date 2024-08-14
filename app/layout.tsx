@@ -16,7 +16,12 @@ const fontBody = Inter({
   variable: '--font-body',
 })
 
-export default function Layout({ children }) {
+
+interface LayoutProps {
+  children: React.ReactNode;
+}
+
+export const Layout: React.FC<LayoutProps> = ({ children }) => {
   return (
     <html lang="en">
       <body 
@@ -31,3 +36,4 @@ export default function Layout({ children }) {
     </html>
   )
 }
+export default Layout;
