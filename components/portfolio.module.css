@@ -1,7 +1,10 @@
 .banner-primary {
     height: 100%;
-    margin-top: 6rem;
+    margin-top: 6.5rem;
     width: 100%;
+    @screen md {
+        margin-top: 6rem;
+    }
 }
 .scan-title {
     font-family: 'BrooklynFreeRegular'
