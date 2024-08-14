@@ -184,7 +184,7 @@ export const Portfolio: React.FC = () => {
   )
 }
 
-function MountainIcon(props) {
+function MountainIcon(props: any) {
   return (
     <svg
       {...props}
