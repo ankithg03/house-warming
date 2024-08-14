@@ -31,7 +31,7 @@ import { Textarea } from "@/components/ui/textarea"
 import { Button } from "@/components/ui/button"
 import s from './portfolio.module.css'
 import { useState } from "react"
-export default function portfolio() {
+export const Portfolio: React.FC = () => {
   const [isShow, setIsShow] = useState(false)
   return (
     <div className="flex flex-col min-h-dvh">
@@ -202,3 +202,4 @@ function MountainIcon(props) {
     </svg>
   )
 }
+export default Portfolio;
