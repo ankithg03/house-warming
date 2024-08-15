@@ -44,7 +44,7 @@ export const Portfolio: React.FC = () => {
         >
           <img
             src="/Logo.png"
-            className="h-8"
+            className="h-8 md:h-10"
             alt="Logo"
           />
           
@@ -158,13 +158,13 @@ export const Portfolio: React.FC = () => {
           <div className="container grid max-w-5xl items-center gap-6 px-4 md:px-6">
             <div className="space-y-4 text-center">
               <h2 className={`text-7xl tracking-tighter sm:text-4xl md:mb-4 md:text-8xl ${s['scan-title']}`}>Map</h2>
-              <iframe src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d326.44015389268344!2d76.66605084980033!3d12.343190395421699!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTLCsDIwJzM1LjIiTiA3NsKwMzknNTcuNiJF!5e0!3m2!1sen!2sin!4v1723667173716!5m2!1sen!2sin" width="600" height="450" className="border-0 w-full flex" allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d243.5996332693294!2d76.66596357177524!3d12.34308198573214!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3baf71005261dc49%3A0xad4201bc6cb9078c!2sAG%20residency!5e0!3m2!1sen!2sin!4v1723723413395!5m2!1sen!2sin" width="600" height="450" className="border-0 w-full flex" allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
             </div>
           </div>
         </section>
       </div>
         <section id="end" className="w-full py-12 md:py-24 lg:py-32 flex justify-center m-auto">
-          <div className="container grid items-center gap-6 px-4 md:px-6 lg:grid-cols-3 lg:gap-10">
+          <div className="container flex md:grid items-center gap-6 px-4 md:px-6 lg:grid-cols-3 lg:gap-10">
             <img className="col-start-2 h-auto rounded-lg shadow-xl dark:shadow-gray-800" src="/ganesha.jpg"/>
           </div>
         </section>
